@@ -1,0 +1,66 @@
+header{
+background-image: url("123.jpg");
+background-color: hsl(240, 100%, 50%); /*цвет фона*/
+width: 100%; /*ширина*/
+height: 600px; /*высота*/
+color:rgb(19, 129, 173); /*цвет текста*/
+font-size: 30px; /*размер текста*/
+text-align: center; /*расположение текста left right center*/
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+footer{
+    background-color: rgb(30, 6, 83); /*цвет фона*/
+    color: white; /*цвет текста*/
+    font-size: 20px; /*размер текста*/
+    height: 100%; /*высота блока*/
+    display: flex; /*блоки друг за другом*/
+
+}
+
+body{
+    background: radial-gradient(circle at top left, #0008ff, #a19488);
+    margin-left: 0; 
+    text-align: center;
+
+}
+ main{display: flex; justify-content: center;}
+.box{
+    width: 80%;
+    height: 100%;
+    background-color:aquamarine;
+    display: flex;
+}
+.left{
+float: left;
+width: 50%;
+height: 100%;
+text-align: justify;
+padding: 10px;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+ 
+.center{
+    float: center;
+}
+
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.f_right{
+    width: 70%;
+    float: right;
+}
+
